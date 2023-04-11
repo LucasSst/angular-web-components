@@ -8,14 +8,16 @@ import { Component, Input, OnChanges, OnInit} from '@angular/core';
 export class TitleComponent implements OnInit, OnChanges {
 
   @Input() nome:string = 'Lucas'
-  constructor() { }
+  constructor() {
+    console.log(`contructor ${this.nome}`)
+   }
 
   ngOnChanges(): void {
-    console.log("Onchanges")
+    console.log(`Onchanges ${this.nome}`)
   }
 
   ngOnInit(): void {
-    console.log('Console on init')
+    console.log(`Console on init ${this.nome}`)
   }
 
 }
