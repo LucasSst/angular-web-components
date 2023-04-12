@@ -1,0 +1,12 @@
+<app-atributos-comp>
+  <h1>title content</h1>
+  <p> paragraph</p>
+</app-atributos-comp>
+
+<app-card *ngIf="isAliveCard; else anotherBlock"></app-card>
+
+<ng-template #anotherBlock>
+  <p>Verificação do templete ng</p>
+</ng-template>
+
+<router-outlet></router-outlet>
