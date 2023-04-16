@@ -1,0 +1,56 @@
+.container__card{
+  width: 200px;
+  height: 320px;
+  background-color: #232323;
+  border-radius: .825rem;
+
+  padding: .825rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.card__title{
+  margin: 0 auto;
+}
+
+
+.card__title > h1 {
+  color: white;
+  font-size: 1.5rem;
+
+}
+
+
+.card__body{
+  background-color: #616161;
+  width: 90%;
+  margin: 0 auto 0 auto;
+  border-radius: .25rem;
+  height: 70%;
+}
+
+
+.card_stats{
+  padding: .625rem;
+}
+
+.card__stats__type{
+  color: white;
+  font-weight: bold;
+  background-color: rgb(0, 0, 0);
+  margin: .25rem;
+  padding: .25rem;
+  border-radius: .2rem;
+}
+
+.card__body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card__body > img {
+  min-height: 100px;
+}
